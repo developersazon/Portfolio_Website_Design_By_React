@@ -24,7 +24,7 @@ export default function ChooseMe() {
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             <MDBRow>
                 {/* image section start here */}
-                <MDBCol xs={6} md={6} className='p-5'>
+                <MDBCol xs={6} md={12} xl={6} className='p-5'>
                         {/* <MDBCardImage src={AboutImage} position='top' alt='...' className=''/> */}
                         <img src={whychoose} className='img-fluid' alt='Skill Image' />
 
@@ -33,7 +33,7 @@ export default function ChooseMe() {
 
 
                 {/* why section start here */}
-                <MDBCol xs={6} md={6} className='mt-5' style={{ textAlign: 'justify' }}>
+                <MDBCol xs={6} md={12} xl={6} className='mt-5' style={{ textAlign: 'justify' }}>
                         {/* Card one start here */}
                         <MDBCard>
                             <MDBRow className='g-0'>
@@ -54,10 +54,9 @@ export default function ChooseMe() {
                             </MDBRow>
                         </MDBCard><br/>
                         {/* card one end here */}
-
                         
                         {/* Card two start here */}
-                        <MDBCard>
+                        <MDBCard xs={6} md={6}>
                             <MDBRow className='g-0'>
                                 <MDBCol>
                                        <div className='positon-relative'>
@@ -76,7 +75,6 @@ export default function ChooseMe() {
                             </MDBRow>
                         </MDBCard><br/>
                         {/* card two end here */}
-
 
                        {/* Card three start here */}
                         <MDBCard>
@@ -107,7 +105,7 @@ export default function ChooseMe() {
         <MDBContainer className='my-5'>
             <MDBRow>
                 {/* Card one start here */}
-                <MDBCol xs={6} md={3} align='justify'>
+                <MDBCol xs={6} md={6} xl={3} align='justify'>
                     <MDBCard className='mb-3'>
                         <MDBCardBody className='text-center'>
                             <MDBCardTitle className='h1 text-primary fw-bold p-2'>5</MDBCardTitle>
@@ -118,7 +116,7 @@ export default function ChooseMe() {
                 {/* Card one end here */}
 
                 {/* Card two start here */}
-                <MDBCol xs={6} md={3} align='justify'>
+                <MDBCol xs={6} md={6} xl={3} align='justify'>
                     <MDBCard className='mb-3'>
                         <MDBCardBody className='text-center'>
                             <MDBCardTitle className='h1 text-primary fw-bold p-2'>650+</MDBCardTitle>
@@ -129,7 +127,7 @@ export default function ChooseMe() {
                 {/* Card two end here */}
 
                 {/* Card theree start here */}
-                <MDBCol xs={6} md={3} align='justify'>
+                <MDBCol xs={6} md={6} xl={3} align='justify'>
                     <MDBCard className='mb-3'>
                         <MDBCardBody className='text-center'>
                             <MDBCardTitle className='h1 text-primary fw-bold p-2'>100%</MDBCardTitle>
@@ -141,7 +139,7 @@ export default function ChooseMe() {
 
 
                 {/* Card one start here */}
-                <MDBCol xs={6} md={3} align='justify'>
+                <MDBCol xs={6} md={6} xl={3} align='justify'>
                     <MDBCard className='mb-3'>
                         <MDBCardBody className='text-center'>
                             <MDBCardTitle className='h1 text-primary fw-bold p-2'>150</MDBCardTitle>
