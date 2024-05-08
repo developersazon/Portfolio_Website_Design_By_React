@@ -9,6 +9,7 @@ import {
   MDBCardText,
   MDBCardImage,
   MDBBtn,
+  MDBRipple,
   MDBTextArea
 } from 'mdb-react-ui-kit';
 import CardImage1 from '../img/card4.png'
@@ -19,12 +20,15 @@ function Blog() {
   return (
     <section>
         <MDBContainer className='my-5'>
-            <h1 className='py-4 googlefont'>Check out our Latest Blog</h1>
+            <h1 className='py-4 googlefont'>Check out our latest Blog</h1>
             <MDBRow>
                 {/* Card one start here */}
                 <MDBCol xs={6} md={4}>
                     <MDBCard className='mb-3'>
-                        <MDBCardImage src={CardImage1} position='top' alt='...' />
+                    <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                        <MDBCardImage src={CardImage1} position='top' fluid alt='...'/>
+                        <a><div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div></a>
+                    </MDBRipple>
                         <MDBCardBody align='justify'>
                             <MDBCardTitle>Running Smoothly</MDBCardTitle>
                             <MDBCardText>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </MDBCardText>
@@ -37,7 +41,10 @@ function Blog() {
                 {/* Card one start here */}
                 <MDBCol xs={6} md={4}>
                     <MDBCard className='mb-3'>
-                        <MDBCardImage src={CardImage2} position='top' alt='...' />
+                        <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                            <MDBCardImage src={CardImage2} position='top' fluid alt='...' />
+                            <a><div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div></a>
+                        </MDBRipple>
                         <MDBCardBody align='justify'>
                             <MDBCardTitle>Riding Car</MDBCardTitle>
                             <MDBCardText>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </MDBCardText>
@@ -50,7 +57,10 @@ function Blog() {
                 {/* Card one start here */}
                 <MDBCol xs={6} md={4}>
                     <MDBCard className='mb-3'>
-                        <MDBCardImage src={CardImage3} position='top' alt='...' />
+                       <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                            <MDBCardImage src={CardImage3} position='top' fluid alt='...' />
+                            <a><div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div></a>
+                        </MDBRipple>
                         <MDBCardBody align='justify'>
                             <MDBCardTitle>Seeing Sky</MDBCardTitle>
                             <MDBCardText>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </MDBCardText>
