@@ -19,7 +19,7 @@ import whychoose from '../img/whychoose.svg';
 export default function ChooseMe() {
   return (
     <section>
-        <MDBContainer className='my-5'>
+        <MDBContainer className=''>
             <h1 className='mb-3 googlefont'>Why you Choose us ?</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             <MDBRow>
@@ -33,9 +33,9 @@ export default function ChooseMe() {
 
 
                 {/* why section start here */}
-                <MDBCol xs={6} md={6} className='p-5' style={{ textAlign: 'justify' }}>
+                <MDBCol xs={6} md={6} className='mt-5' style={{ textAlign: 'justify' }}>
                         {/* Card one start here */}
-                        <MDBCard style={{ maxWidth: '540px' }}>
+                        <MDBCard>
                             <MDBRow className='g-0'>
                                 <MDBCol>
                                        <div className='positon-relative'>
@@ -57,7 +57,7 @@ export default function ChooseMe() {
 
                         
                         {/* Card two start here */}
-                        <MDBCard style={{ maxWidth: '540px' }}>
+                        <MDBCard>
                             <MDBRow className='g-0'>
                                 <MDBCol>
                                        <div className='positon-relative'>
@@ -79,7 +79,7 @@ export default function ChooseMe() {
 
 
                        {/* Card three start here */}
-                        <MDBCard style={{ maxWidth: '540px' }}>
+                        <MDBCard>
                             <MDBRow className='g-0'>
                                 <MDBCol>
                                        <div className='positon-relative'>
@@ -102,6 +102,58 @@ export default function ChooseMe() {
                 {/* why section end here */}
             </MDBRow>
         </MDBContainer>
+
+
+        <MDBContainer className='my-5'>
+            <MDBRow>
+                {/* Card one start here */}
+                <MDBCol xs={6} md={3} align='justify'>
+                    <MDBCard className='mb-3'>
+                        <MDBCardBody className='text-center'>
+                            <MDBCardTitle className='h1 text-primary fw-bold p-2'>5</MDBCardTitle>
+                            <MDBCardText>Running Project</MDBCardText>
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+                {/* Card one end here */}
+
+                {/* Card two start here */}
+                <MDBCol xs={6} md={3} align='justify'>
+                    <MDBCard className='mb-3'>
+                        <MDBCardBody className='text-center'>
+                            <MDBCardTitle className='h1 text-primary fw-bold p-2'>650+</MDBCardTitle>
+                            <MDBCardText>Completed Project</MDBCardText>
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+                {/* Card two end here */}
+
+                {/* Card theree start here */}
+                <MDBCol xs={6} md={3} align='justify'>
+                    <MDBCard className='mb-3'>
+                        <MDBCardBody className='text-center'>
+                            <MDBCardTitle className='h1 text-primary fw-bold p-2'>100%</MDBCardTitle>
+                            <MDBCardText>Client Satisfaction</MDBCardText>
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+                {/* Card three end here */}
+
+
+                {/* Card one start here */}
+                <MDBCol xs={6} md={3} align='justify'>
+                    <MDBCard className='mb-3'>
+                        <MDBCardBody className='text-center'>
+                            <MDBCardTitle className='h1 text-primary fw-bold p-2'>150</MDBCardTitle>
+                            <MDBCardText>Achivements</MDBCardText>
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+                {/* Card one end here */}
+
+            </MDBRow>
+        </MDBContainer>
     </section>
+    // Achivement section end here
   );
 }
