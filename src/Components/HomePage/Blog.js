@@ -23,7 +23,7 @@ function Blog() {
             <h1 className='py-4 googlefont'>Check out our latest Blog</h1>
             <MDBRow>
                 {/* Card one start here */}
-                <MDBCol xs={6} md={4}>
+                <MDBCol xs={6} md={6} xl={4}>
                     <MDBCard className='mb-3'>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={CardImage1} position='top' fluid alt='...'/>
@@ -39,7 +39,7 @@ function Blog() {
                 {/* Card one end here */}
 
                 {/* Card one start here */}
-                <MDBCol xs={6} md={4}>
+                <MDBCol xs={6} md={6} xl={4}>
                     <MDBCard className='mb-3'>
                         <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                             <MDBCardImage src={CardImage2} position='top' fluid alt='...' />
@@ -55,7 +55,7 @@ function Blog() {
                 {/* Card one end here */}
 
                 {/* Card one start here */}
-                <MDBCol xs={6} md={4}>
+                <MDBCol xs={6} md={6} xl={4}>
                     <MDBCard className='mb-3'>
                        <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                             <MDBCardImage src={CardImage3} position='top' fluid alt='...' />
