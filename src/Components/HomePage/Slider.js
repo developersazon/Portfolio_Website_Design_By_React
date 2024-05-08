@@ -7,7 +7,7 @@ import Image3 from '../img/banner3.jpg';
 
 export default function Slider() {
   return (
-    <MDBCarousel showIndicators showControls fade>
+    <MDBCarousel showIndicators showControls fade className='mb-9'>
       <MDBCarouselItem itemId={1}>
         <img src={Image1} className='d-block' alt='...' />
         <MDBCarouselCaption>

@@ -12,14 +12,14 @@ import {
   MDBProgressBar,
   MDBBtn
 } from 'mdb-react-ui-kit';
-import AboutImage from '../img/Image1.jpg';
+import AboutImage from '../img/portfolio.svg';
 
 
 export default function MySkills() {
   return (
     <section>
         <MDBContainer className='my-5'>
-            <h1 className='mb-4'>Some Information about my Skills</h1>
+            <h1 className='mb-6 googlefont'>Some Information about my Skills</h1>
             <MDBRow>
                 {/* Skill score section start here */}
                 <MDBCol xs={6} md={6} className='' style={{ textAlign: 'justify' }}>
@@ -48,17 +48,24 @@ export default function MySkills() {
                         <MDBProgress height='25'>
                             <MDBProgressBar width='63' valuemin={0} valuemax={100}>62%</MDBProgressBar>
                         </MDBProgress><br/>
+
+                        <spam>JavaScript & JQuery</spam>
+                        <MDBProgress height='25'>
+                            <MDBProgressBar width='63' valuemin={0} valuemax={100}>62%</MDBProgressBar>
+                        </MDBProgress><br/>
+
+                        <spam>JavaScript & JQuery</spam>
+                        <MDBProgress height='25'>
+                            <MDBProgressBar width='63' valuemin={0} valuemax={100}>62%</MDBProgressBar>
+                        </MDBProgress><br/>
                 </MDBCol>
                 {/* skill score section end here */}
 
 
                 {/* skill image section start here */}
                 <MDBCol xs={6} md={6}>
-                    <MDBCard className='mb-3'>
-                        <MDBCardImage src={AboutImage} position='top' alt='...' />
-                        <MDBCardBody>
-                        </MDBCardBody>
-                    </MDBCard>
+                        {/* <MDBCardImage src={AboutImage} position='top' alt='...' className=''/> */}
+                        <img src={AboutImage} className='img-fluid' alt='Skill Image' />
                 </MDBCol>
                 {/* skill image section end here */}
             </MDBRow>
