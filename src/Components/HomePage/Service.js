@@ -43,7 +43,7 @@ function Service() {
                     <MDBCard className='mb-3'>
                     <div className='positon-relative mb-4'>
                          <div class="position-absolute top-0 start-50 translate-middle">
-                              <MDBIcon className='p-3 bg-primary rounded text-light' fas icon="code" size='1x'/>
+                              <MDBIcon className='p-3 bg-primary rounded text-light' fas icon="bezier-curve" size='1x'/>
                          </div>   
                     </div>
                         <MDBCardBody>
@@ -59,7 +59,7 @@ function Service() {
                     <MDBCard className='mb-3'>
                     <div className='positon-relative mb-4'>
                          <div class="position-absolute top-0 start-50 translate-middle">
-                              <MDBIcon className='p-3 bg-primary rounded text-light' fas icon="code" size='1x'/>
+                              <MDBIcon className='p-3 bg-primary rounded text-light' fab icon="app-store" size='1x'/>
                          </div>   
                     </div>
                         <MDBCardBody>
@@ -76,7 +76,7 @@ function Service() {
                     <MDBCard className='mb-3'>
                     <div className='positon-relative mb-4'>
                          <div class="position-absolute top-0 start-50 translate-middle">
-                              <MDBIcon className='p-3 bg-primary rounded text-light' fas icon="code" size='1x'/>
+                              <MDBIcon className='p-3 bg-primary rounded text-light' fas icon="fill" size='1x'/>
                          </div>   
                     </div>
                         <MDBCardBody>
