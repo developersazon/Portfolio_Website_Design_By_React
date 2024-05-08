@@ -23,8 +23,8 @@ function Service() {
             <h1 className='mb-8 googlefont'>What Can I do for you ?</h1>
             <MDBRow>
                 {/* Card one start here */}
-                <MDBCol xs={6} md={3} align='justify'>
-                    <MDBCard className='mb-3'>
+                <MDBCol xs={6} md={6} xl={3} align='justify'>
+                    <MDBCard className='mb-5'>
                     <div className='positon-relative mb-4'>
                          <div class="position-absolute top-0 start-50 translate-middle">
                               <MDBIcon className='p-3 bg-primary rounded text-light' fas icon="code" size='1x'/>
@@ -39,8 +39,8 @@ function Service() {
                 {/* Card one end here */}
 
                 {/* Card two start here */}
-                <MDBCol xs={6} md={3} align='justify'>
-                    <MDBCard className='mb-3'>
+                <MDBCol xs={6} md={6} xl={3} align='justify'>
+                    <MDBCard className='mb-5'>
                     <div className='positon-relative mb-4'>
                          <div class="position-absolute top-0 start-50 translate-middle">
                               <MDBIcon className='p-3 bg-primary rounded text-light' fas icon="bezier-curve" size='1x'/>
@@ -55,8 +55,8 @@ function Service() {
                 {/* Card two end here */}
 
                 {/* Card theree start here */}
-                <MDBCol xs={6} md={3} align='justify'>
-                    <MDBCard className='mb-3'>
+                <MDBCol xs={6} md={6} xl={3} align='justify'>
+                    <MDBCard className='mb-5'>
                     <div className='positon-relative mb-4'>
                          <div class="position-absolute top-0 start-50 translate-middle">
                               <MDBIcon className='p-3 bg-primary rounded text-light' fab icon="app-store" size='1x'/>
@@ -72,7 +72,7 @@ function Service() {
 
 
                 {/* Card one start here */}
-                <MDBCol xs={6} md={3} align='justify'>
+                <MDBCol xs={6} md={6} xl={3} align='justify'>
                     <MDBCard className='mb-3'>
                     <div className='positon-relative mb-4'>
                          <div class="position-absolute top-0 start-50 translate-middle">
