@@ -5,6 +5,7 @@ import About from './Components/HomePage/About';
 import Skill from './Components/HomePage/Skill';
 import Blog from './Components/HomePage/Blog';
 import Service from './Components/HomePage/Service';
+import WhyChooseMe from './Components/HomePage/ChooseMe';
 
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
             <About />
             <Skill />
             <Service />
+            <WhyChooseMe />
             <Blog />
             <Footer />
       </header>
