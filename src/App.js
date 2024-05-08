@@ -1,18 +1,22 @@
-import './App.css';
-import Userprofile from './Components/Userprofile';
-import Header from './Components/Header';
-import FullSlider from './Components/Home-PageSlider';
-import AboutUs from './Components/Home-About';
-import OurServices from './Components/Home-Services';
+import Header from './Components/Header_Footer/Header';
+import Footer from './Components/Header_Footer/Footer';
+import Slider from './Components/HomePage/Slider';
+import About from './Components/HomePage/About';
+import Skill from './Components/HomePage/Skill';
+import Service from './Components/HomePage/Service';
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="">
             <Header />
-            <FullSlider />
-            <AboutUs />
-            <OurServices />
+            <Slider />
+            <About />
+            <Skill />
+            <Service />
+            <Footer />
       </header>
     </div>
   );

@@ -10,14 +10,13 @@ import {
   MDBCardImage,
   MDBBtn
 } from 'mdb-react-ui-kit';
-import AboutImage from '../Components/img/Image1.jpg'
+import AboutImage from '../img/Image1.jpg';
 
-function AboutUs() {
+function About() {
   return (
     <section>
         <MDBContainer className='my-5'>
-            <h1></h1>
-            <MDBRow>
+            <MDBRow className=''>
                 {/* Banner section start here */}
                 <MDBCol xs={6} md={6}>
                     <MDBCard className='mb-3'>
@@ -43,4 +42,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default About;

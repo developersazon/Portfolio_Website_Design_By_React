@@ -11,11 +11,11 @@ import {
   MDBBtn,
   MDBTextArea
 } from 'mdb-react-ui-kit';
-import CardImage1 from '../Components/img/card4.png'
-import CardImage2 from '../Components/img/card2.png'
-import CardImage3 from '../Components/img/card3.png'
+import CardImage1 from '../img/card4.png'
+import CardImage2 from '../img/card2.png'
+import CardImage3 from '../img/card3.png'
 
-function OurServices() {
+function Service() {
   return (
     <section>
         <MDBContainer className='my-5'>
@@ -63,4 +63,4 @@ function OurServices() {
   );
 }
 
-export default OurServices;
+export default Service;
