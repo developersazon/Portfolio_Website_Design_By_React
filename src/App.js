@@ -7,7 +7,7 @@ import Blog from './Components/HomePage/Blog';
 import Service from './Components/HomePage/Service';
 
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="">
@@ -15,12 +15,10 @@ function App() {
             <Slider />
             <About />
             <Skill />
-            <Blog />
             <Service />
+            <Blog />
             <Footer />
       </header>
     </div>
   );
 }
-
-export default App;

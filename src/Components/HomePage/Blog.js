@@ -25,9 +25,10 @@ function Blog() {
                 <MDBCol xs={6} md={4}>
                     <MDBCard className='mb-3'>
                         <MDBCardImage src={CardImage1} position='top' alt='...' />
-                        <MDBCardBody>
+                        <MDBCardBody align='justify'>
                             <MDBCardTitle>Running Smoothly</MDBCardTitle>
                             <MDBCardText>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </MDBCardText>
+                            <MDBBtn href='#'>Read More</MDBBtn>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -37,9 +38,10 @@ function Blog() {
                 <MDBCol xs={6} md={4}>
                     <MDBCard className='mb-3'>
                         <MDBCardImage src={CardImage2} position='top' alt='...' />
-                        <MDBCardBody>
+                        <MDBCardBody align='justify'>
                             <MDBCardTitle>Riding Car</MDBCardTitle>
                             <MDBCardText>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </MDBCardText>
+                            <MDBBtn href='#'>Read More</MDBBtn>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -49,9 +51,10 @@ function Blog() {
                 <MDBCol xs={6} md={4}>
                     <MDBCard className='mb-3'>
                         <MDBCardImage src={CardImage3} position='top' alt='...' />
-                        <MDBCardBody>
+                        <MDBCardBody align='justify'>
                             <MDBCardTitle>Seeing Sky</MDBCardTitle>
                             <MDBCardText>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </MDBCardText>
+                            <MDBBtn href='#'>Read More</MDBBtn>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
