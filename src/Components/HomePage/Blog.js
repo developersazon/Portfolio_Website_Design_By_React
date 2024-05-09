@@ -19,8 +19,11 @@ import CardImage3 from '../img/card3.png'
 function Blog() {
   return (
     <section>
-        <MDBContainer className='my-5'>
-            <h1 className='py-4 googlefont'>Check out our latest Blog</h1>
+        <MDBContainer className='my-5 mb-8'>
+            <div className='py-4 text-center'>
+                <h1 className='googlefont'>Check out our latest Blog</h1>
+                <p className='px-5'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+            </div>
             <MDBRow>
                 {/* Card one start here */}
                 <MDBCol xs={6} md={6} xl={4}>
