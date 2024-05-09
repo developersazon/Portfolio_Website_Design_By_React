@@ -19,12 +19,15 @@ import CardImage3 from '../img/card3.png'
 export default function Price() {
   return (
     <section>
-        <MDBContainer className='my-5 mb-9'>
-            <h1 className='mb-8 googlefont'>What Can I Offer you ?</h1>
+        <MDBContainer className='my-5'>
+            <div className='mb-8 text-center'>
+                <h1 className='googlefont'>What Can I Offer you ?</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
             <MDBRow>
                 {/* Card one start here */}
                 <MDBCol xs={6} md={6} xl={3} align='justify'>
-                    <MDBCard className='mt-5 border border-primary border-top-4'>
+                    <MDBCard className='mt-5 border border-primary border-top-4 mb-5'>
                     <div className='positon-relative mb-4'>
                          <div class="position-absolute top-0 start-50 translate-middle rounded-pill">
                               <p className='bg-primary text-light p-2 rounded-pill googlefont'>Basic</p>
@@ -46,7 +49,7 @@ export default function Price() {
 
                 {/* Card two start here */}
                 <MDBCol xs={6} md={6} xl={3} align='justify'>
-                    <MDBCard className='border border-primary border-top-4'>
+                    <MDBCard className='border border-primary border-top-4 mb-5'>
                     <div className='positon-relative mb-4'>
                          <div class="position-absolute top-0 start-50 translate-middle rounded-pill">
                               <p className='bg-primary text-light p-2 rounded-pill googlefont'>Standard</p>
