@@ -12,7 +12,7 @@ import {
 } from 'mdb-react-ui-kit';
 import AboutImage from '../img/Image1.jpg';
 
-function About() {
+export default function About() {
   return (
     <section>
         <MDBContainer className='my-5 mb-9'>
@@ -41,5 +41,3 @@ function About() {
     </section>
   );
 }
-
-export default About;

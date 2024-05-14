@@ -8,7 +8,7 @@ import '../Css/style.css';
 
 export default function Banner() {
   return (
-      <section className=''>
+      <section>
                 <MDBRow>
                     <MDBCol>
                             {/* Banner section start here */}
@@ -17,7 +17,7 @@ export default function Banner() {
                                   <div class="mask bgColor">  
                                     <div class="container d-flex align-items-center justify-content-center h-100">
                                       <div class="text-white shadow-2-strong p-4 rounded">
-                                           <h2 class="">Welcome to the page</h2>
+                                           <h2 class="">Welcome to our Website</h2>
                                       </div>
                                     </div>
                                   </div>
