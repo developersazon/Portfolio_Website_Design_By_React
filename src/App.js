@@ -6,21 +6,18 @@ import Skill from './Components/HomePage/Skill';
 import Blog from './Components/HomePage/Blog';
 import Service from './Components/HomePage/Service';
 import WhyChooseMe from './Components/HomePage/ChooseMe';
+import ProductPrice from './Components/HomePage/Price';
+import { Outlet } from 'react-router-dom';
+ 
 
 
 export default function App() {
   return (
     <div className="App">
-      <header className="">
+
             <Header />
-            <Slider />
-            <About />
-            <Skill />
-            <Service />
-            <WhyChooseMe />
-            <Blog />
+                 <Outlet/>
             <Footer />
-      </header>
     </div>
   );
 }
