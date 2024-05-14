@@ -1,12 +1,10 @@
 import Header from './Components/Header_Footer/Header';
-import Footer from './Components/Header_Footer/Footer';
 import Slider from './Components/HomePage/Slider';
-import About from './Components/HomePage/About';
+import About from './Components/AboutPage/About';
 import Skill from './Components/HomePage/Skill';
-import Blog from './Components/HomePage/Blog';
 import Service from './Components/HomePage/Service';
 import WhyChooseMe from './Components/HomePage/ChooseMe';
-import ProductPrice from './Components/HomePage/Price';
+import Footer from './Components/Header_Footer/Footer';
 import { Outlet } from 'react-router-dom';
  
 

@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import ContactPage from '../ContactPage/Contact';
+import ContactPage from '../ContactPage/Contact-page';
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
@@ -40,19 +40,19 @@ export default function Header() {
                     
                   <Nav.Link as={Link} to='/'>Home</Nav.Link>
                   <Nav.Link as={Link} to='/about'>About</Nav.Link>
-                  <Nav.Link as={Link} to='/blogs'>Blogs</Nav.Link>
+                  <Nav.Link as={Link} to='/blog'>Blogs</Nav.Link>
                   <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
-                  <NavDropdown title="More" id="navbarScrollingDropdown">
-                    <NavDropdown.Item href="#">Our Story</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#">
-                      Mission
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#">
-                      Vission
-                    </NavDropdown.Item>
-                  </NavDropdown>
+                      {/* <NavDropdown title="More" id="navbarScrollingDropdown">
+                        <NavDropdown.Item href="#">Our Story</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href="#">
+                          Mission
+                        </NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href="#">
+                          Vission
+                        </NavDropdown.Item>
+                      </NavDropdown> */}
                     </Nav>
                     <Form className="d-flex">
                       <Form.Control

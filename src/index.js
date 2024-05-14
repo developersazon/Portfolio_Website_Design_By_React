@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Blog from './Components/HomePage/Blog';
-import About from './Components/HomePage/About';
-import Contact from './Components/ContactPage/Contact';
+
 import Home from './Components/HomePage/Home';
+import AboutPage from './Components/AboutPage/About-page'
+import ContactPage from './Components/ContactPage/Contact-page';
+import BlogPage from './Components/BlogPage/Blog-page';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -22,16 +23,16 @@ const router = createBrowserRouter([
       },
       {
         path: "about",
-        element: <About/>,
+        element: <AboutPage/>,
       },
       {
-        path: "blogs",
-        element: <Blog/>,
+        path: "blog",
+        element: <BlogPage/>,
         
       },
       {
         path: "contact",
-        element: <Contact/>,
+        element: <ContactPage/>,
         
       },
       
