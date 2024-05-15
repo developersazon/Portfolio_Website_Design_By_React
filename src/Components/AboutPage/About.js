@@ -10,25 +10,14 @@ import {
   MDBCardImage,
   MDBBtn
 } from 'mdb-react-ui-kit';
-import AboutImage from '../img/Image1.jpg';
+import AboutImage from '../img/aboutus.svg';
 import Banner from '../HomePage/Banner';
 
 export default function About() {
   return (
     <section>
-        <MDBContainer className='my-5 mb-9'>
+        <MDBContainer className='my-5'>
             <MDBRow className=''>
-                {/* Banner section start here */}
-                <MDBCol xs={6} md={12} xl={6}>
-                    <MDBCard className='mb-3'>
-                        <MDBCardImage src={AboutImage} position='top' alt='...' />
-                        <MDBCardBody>
-                            <MDBCardTitle className='googlefont'>Design your custom website with me...</MDBCardTitle>
-                        </MDBCardBody>
-                    </MDBCard>
-                </MDBCol>
-                {/* Banner section end here */}
-
                 {/* About text section start here */}
                 <MDBCol xs={6} md={12} xl={6} className='' style={{ textAlign: 'justify' }}>
                         <h1 id='#aboutus' className='py-2 googlefont'>About Us</h1>
@@ -37,6 +26,12 @@ export default function About() {
                         <MDBBtn href='#aboutus' className='text-capitalize'>Read More</MDBBtn>
                 </MDBCol>
                 {/* About text section end here */}
+
+                {/* Banner section start here */}
+                <MDBCol xs={6} md={12} xl={6}>
+                        <MDBCardImage src={AboutImage} position='top' alt='...' />
+                </MDBCol>
+                {/* Banner section end here */}
             </MDBRow>
         </MDBContainer>
     </section>
