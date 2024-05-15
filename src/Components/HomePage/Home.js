@@ -1,13 +1,12 @@
 import { Outlet } from 'react-router-dom';
 import Slider from './Slider';
 import About from '../AboutPage/About';
-import Service from './Service';
-import ChooseMe from './ChooseMe';
-import MySkills from './Skill';
-import Price from './Price';
+import MySkills from '../ServicePage/Skill';
+import Service from '../ServicePage/Service';
+import Price from '../ServicePage/Price';
 import Blog from '../BlogPage/Blog';
- 
 
+ 
 export default function Home() {
   return (
     <div className="App">
@@ -15,7 +14,6 @@ export default function Home() {
          <About/>
          <MySkills/>
          <Service/>
-         <ChooseMe/>
          <Price/>
          <Blog/>
     </div>

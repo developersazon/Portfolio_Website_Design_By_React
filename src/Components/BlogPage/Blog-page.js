@@ -6,7 +6,7 @@ import Blog from './Blog';
 export default function BlogPage() {
   return (
     <div className="blog">
-        <Banner/>
+         <Banner/>
         <Blog/>
     </div>
   );
