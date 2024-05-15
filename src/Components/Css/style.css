@@ -1,11 +1,5 @@
 /* hero banner image design  */
-@media (min-width: 992px) {
-  #intro {
-    height: 50vh !important;
-  }
-}
-
-.bgColor {
+ .bgColor {
   background: linear-gradient(
     45deg,
     rgba(29, 236, 197, 0.7),
@@ -13,12 +7,7 @@
   );
 }
 
-.videStyle {
-  min-width: 100%; 
-  min-height: 100%;
-}
-
-.video-style {
-  min-width: 100%; 
-  min-height: 100%;
+ 
+.bannerPadding {
+  padding: 7%;
 }
