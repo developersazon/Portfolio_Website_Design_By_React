@@ -12,7 +12,6 @@ export default function AboutPage() {
          <About/>
          <Vission/>
          <Mission/>
-         <Testimonial/>
     </div>
   );
 }
