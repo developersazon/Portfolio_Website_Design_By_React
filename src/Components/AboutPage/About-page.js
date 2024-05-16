@@ -3,7 +3,7 @@ import Banner from '../HomePage/Banner';
 import About from './About';
 import Mission from './Mission';
 import Vission from './Vission';
-
+import Testimonial from './Testimonial';
 
 export default function AboutPage() {
   return (
@@ -12,6 +12,7 @@ export default function AboutPage() {
          <About/>
          <Vission/>
          <Mission/>
+         <Testimonial/>
     </div>
   );
 }
