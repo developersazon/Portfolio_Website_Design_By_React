@@ -11,12 +11,14 @@ import '../Css/App.css';
 
 // import required modules
 import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
-import { MDBContainer, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn } from 'mdb-react-ui-kit';
+import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn, MDBCardImage  } from 'mdb-react-ui-kit';
 
 export default function App() {
   return (
     <>
     <MDBContainer>
+            <p className='h2 text-center googlefont'>Our Recent Clients</p>
+            <p className=''>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}
@@ -38,33 +40,116 @@ export default function App() {
                 modules={[Autoplay, EffectCoverflow, Pagination]}
                 className="mySwiper"
             >
-            <div>
 
                 <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                        <MDBCard style={{ maxWidth: '450px' }}>
+                            <MDBRow className='g-0'>
+                                <MDBCol md='4 p-3'>
+                                <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' className='rounded rounded-pill mt-4' position='start' alt='...' fluid />
+                                </MDBCol>
+                                <MDBCol md='8'>
+                                <MDBCardBody className='p-4'>
+                                    <MDBCardTitle>Sazon Mahmud</MDBCardTitle>
+                                    <MDBCardText className='' style={{ textAlign:'justify' }}>
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This
+                                    content is a little bit longer.
+                                    </MDBCardText>
+                                </MDBCardBody>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                        <MDBCard style={{ maxWidth: '450px' }}>
+                            <MDBRow className='g-0'>
+                                <MDBCol md='4 p-3'>
+                                <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' className='rounded rounded-pill mt-4' position='start' alt='...' fluid />
+                                </MDBCol>
+                                <MDBCol md='8'>
+                                <MDBCardBody className='p-4'>
+                                    <MDBCardTitle>Sazon Mahmud</MDBCardTitle>
+                                    <MDBCardText className='' style={{ textAlign:'justify' }}>
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This
+                                    content is a little bit longer.
+                                    </MDBCardText>
+                                </MDBCardBody>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                        <MDBCard style={{ maxWidth: '450px' }}>
+                            <MDBRow className='g-0'>
+                                <MDBCol md='4 p-3'>
+                                <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' className='rounded rounded-pill mt-4' position='start' alt='...' fluid />
+                                </MDBCol>
+                                <MDBCol md='8'>
+                                <MDBCardBody className='p-4'>
+                                    <MDBCardTitle>Sazon Mahmud</MDBCardTitle>
+                                    <MDBCardText className='' style={{ textAlign:'justify' }}>
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This
+                                    content is a little bit longer.
+                                    </MDBCardText>
+                                </MDBCardBody>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-                </SwiperSlide>
-                <SwiperSlide className='swiper-slide swiper-slide-active'>
-                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                        <MDBCard style={{ maxWidth: '450px' }}>
+                            <MDBRow className='g-0'>
+                                <MDBCol md='4 p-3'>
+                                <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' className='rounded rounded-pill mt-4' position='start' alt='...' fluid />
+                                </MDBCol>
+                                <MDBCol md='8'>
+                                <MDBCardBody className='p-4'>
+                                    <MDBCardTitle>Sazon Mahmud</MDBCardTitle>
+                                    <MDBCardText className='' style={{ textAlign:'justify' }}>
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This
+                                    content is a little bit longer.
+                                    </MDBCardText>
+                                </MDBCardBody>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                        <MDBCard style={{ maxWidth: '450px' }}>
+                            <MDBRow className='g-0'>
+                                <MDBCol md='4 p-3'>
+                                <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' className='rounded rounded-pill mt-4' position='start' alt='...' fluid />
+                                </MDBCol>
+                                <MDBCol md='8'>
+                                <MDBCardBody className='p-4'>
+                                    <MDBCardTitle>Sazon Mahmud</MDBCardTitle>
+                                    <MDBCardText className='' style={{ textAlign:'justify' }}>
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This
+                                    content is a little bit longer.
+                                    </MDBCardText>
+                                </MDBCardBody>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                        <MDBCard style={{ maxWidth: '450px' }}>
+                            <MDBRow className='g-0'>
+                                <MDBCol md='4 p-3'>
+                                <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' className='rounded rounded-pill mt-4' position='start' alt='...' fluid />
+                                </MDBCol>
+                                <MDBCol md='8'>
+                                <MDBCardBody className='p-4'>
+                                    <MDBCardTitle>Sazon Mahmud</MDBCardTitle>
+                                    <MDBCardText className='' style={{ textAlign:'justify' }}>
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This
+                                    content is a little bit longer.
+                                    </MDBCardText>
+                                </MDBCardBody>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBCard>
                 </SwiperSlide>
-                <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-                </SwiperSlide>
-                </div>
+                
             </Swiper>
       </MDBContainer>
     </>
