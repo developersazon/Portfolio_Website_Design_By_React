@@ -6,6 +6,7 @@ import Service from '../ServicePage/Service';
 import ChooseMe from '../ServicePage/ChooseMe';
 import Price from '../ServicePage/Price';
 import Blog from '../BlogPage/Blog';
+import Testimonial from '../AboutPage/Testimonial'
 
  
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
          <ChooseMe/>
          <Price/>
          <Blog/>
+         <Testimonial/>
     </div>
   );
 }
