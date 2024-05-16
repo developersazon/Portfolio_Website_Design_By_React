@@ -9,10 +9,10 @@ import '../Css/style.css';
 export default function Banner() {
   return (
       <section>
-                <MDBRow>
+                <MDBRow className='mx-0'>
                     <MDBCol>
                             {/* Banner section start here */}
-                            <div id="" class="App">
+                            <div id="" class=" ">
                                       <div class="text-white">
                                            <h2 class="h1 bgColor text-center googlefont bannerPadding">Welcome to our Website</h2>
                                       </div>
