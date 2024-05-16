@@ -17,9 +17,8 @@ import MissionImage from '../img/about.svg';
 
 export default function Mission() {
   return (
-    <section>
-        <MDBContainer>
-            <MDBRow>
+        <MDBContainer className='mx-5'>
+            <MDBRow className='mx-0'>
                 {/* About text section start here */}
                 <MDBCol xs={6} md={12} xl={6} className='' style={{ textAlign: 'justify' }}>
                         <h1 id='#aboutus' className='py-2 googlefont mt-5'>Our Mission</h1>
@@ -35,6 +34,5 @@ export default function Mission() {
                 {/* Banner section end here */}
             </MDBRow>
         </MDBContainer>
-    </section>
   );
 }
