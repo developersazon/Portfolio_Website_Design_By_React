@@ -6,8 +6,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-
 import '../Css/App.css';
+import ClientImage from '../img/client.jpg';
 
 // import required modules
 import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
@@ -34,7 +34,7 @@ export default function App() {
                 stretch: 0,
                 depth: 100,
                 modifier: 1,
-                slideShadows: true,
+                slideShadows: false,
                 }}
                 pagination={true}
                 modules={[Autoplay, EffectCoverflow, Pagination]}
@@ -42,10 +42,10 @@ export default function App() {
             >
 
                 <SwiperSlide>
-                        <MDBCard style={{ maxWidth: '450px' }}>
+                        <MDBCard style={{ maxWidth: '550px' }}>
                             <MDBRow className='g-0'>
-                                <MDBCol md='4 p-3'>
-                                <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' className='rounded rounded-pill mt-4' position='start' alt='...' fluid />
+                                <MDBCol md='4'>
+                                <MDBCardImage src={ClientImage} className=' ' position=' ' alt='...' fluid style={{ height:'100%' }}/>
                                 </MDBCol>
                                 <MDBCol md='8'>
                                 <MDBCardBody className='p-4'>
@@ -60,10 +60,10 @@ export default function App() {
                         </MDBCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                        <MDBCard style={{ maxWidth: '450px' }}>
+                        <MDBCard style={{ maxWidth: '550px' }}>
                             <MDBRow className='g-0'>
-                                <MDBCol md='4 p-3'>
-                                <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' className='rounded rounded-pill mt-4' position='start' alt='...' fluid />
+                                <MDBCol md='4'>
+                                <MDBCardImage src={ClientImage} className=' ' position=' ' alt='...' fluid style={{ height:'100%' }}/>
                                 </MDBCol>
                                 <MDBCol md='8'>
                                 <MDBCardBody className='p-4'>
@@ -78,10 +78,10 @@ export default function App() {
                         </MDBCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                        <MDBCard style={{ maxWidth: '450px' }}>
+                        <MDBCard style={{ maxWidth: '550px' }}>
                             <MDBRow className='g-0'>
-                                <MDBCol md='4 p-3'>
-                                <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' className='rounded rounded-pill mt-4' position='start' alt='...' fluid />
+                                <MDBCol md='4'>
+                                <MDBCardImage src={ClientImage} className=' ' position=' ' alt='...' fluid style={{ height:'100%' }}/>
                                 </MDBCol>
                                 <MDBCol md='8'>
                                 <MDBCardBody className='p-4'>
@@ -96,10 +96,10 @@ export default function App() {
                         </MDBCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                        <MDBCard style={{ maxWidth: '450px' }}>
+                        <MDBCard style={{ maxWidth: '550px' }}>
                             <MDBRow className='g-0'>
-                                <MDBCol md='4 p-3'>
-                                <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' className='rounded rounded-pill mt-4' position='start' alt='...' fluid />
+                                <MDBCol md='4'>
+                                <MDBCardImage src={ClientImage} className=' ' position=' ' alt='...' fluid style={{ height:'100%' }}/>
                                 </MDBCol>
                                 <MDBCol md='8'>
                                 <MDBCardBody className='p-4'>
@@ -114,10 +114,10 @@ export default function App() {
                         </MDBCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                        <MDBCard style={{ maxWidth: '450px' }}>
+                        <MDBCard style={{ maxWidth: '550px' }}>
                             <MDBRow className='g-0'>
-                                <MDBCol md='4 p-3'>
-                                <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' className='rounded rounded-pill mt-4' position='start' alt='...' fluid />
+                                <MDBCol md='4'>
+                                <MDBCardImage src={ClientImage} className=' ' position=' ' alt='...' fluid style={{ height:'100%' }}/>
                                 </MDBCol>
                                 <MDBCol md='8'>
                                 <MDBCardBody className='p-4'>
@@ -132,10 +132,10 @@ export default function App() {
                         </MDBCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                        <MDBCard style={{ maxWidth: '450px' }}>
+                        <MDBCard style={{ maxWidth: '550px' }}>
                             <MDBRow className='g-0'>
-                                <MDBCol md='4 p-3'>
-                                <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' className='rounded rounded-pill mt-4' position='start' alt='...' fluid />
+                                <MDBCol md='4'>
+                                <MDBCardImage src={ClientImage} className=' ' position=' ' alt='...' fluid style={{ height:'100%' }}/>
                                 </MDBCol>
                                 <MDBCol md='8'>
                                 <MDBCardBody className='p-4'>
@@ -149,7 +149,24 @@ export default function App() {
                             </MDBRow>
                         </MDBCard>
                 </SwiperSlide>
-                
+                <SwiperSlide>
+                        <MDBCard style={{ maxWidth: '550px' }}>
+                            <MDBRow className='g-0'>
+                                <MDBCol md='4'>
+                                <MDBCardImage src={ClientImage} className=' ' position=' ' alt='...' fluid style={{ height:'100%' }}/>
+                                </MDBCol>
+                                <MDBCol md='8'>
+                                <MDBCardBody className='p-4'>
+                                    <MDBCardTitle>Sazon Mahmud</MDBCardTitle>
+                                    <MDBCardText className='' style={{ textAlign:'justify' }}>
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This
+                                    content is a little bit longer.
+                                    </MDBCardText>
+                                </MDBCardBody>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBCard>
+                </SwiperSlide>
             </Swiper>
       </MDBContainer>
     </>
